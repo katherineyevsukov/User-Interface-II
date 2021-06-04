@@ -62,9 +62,7 @@ a{
 
 *{
 box-sizing: border-box;
-
 max-width: 100%;
-border: 1px solid grey;
 }
 header{
     background-color: lavender;
@@ -106,18 +104,22 @@ header nav a{
 
 .gallery {
     display: flex;
-    flex-direction:row;
-    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between; 
+ } 
+
+.pic{
+     display:flex;
+     flex-direction: column;
+     width:16.5%;
+     justify-content: space-between; 
+     margin: 4%;
+ }
     
-}
-.gallery img{
-    flex-direction:row;
-    display:flex;
-    justify-content: space-between;
-}
 
 .desc{
-    display:flex;
     text-align: center;
 }
 
@@ -137,5 +139,7 @@ footer a{
     display: flex;
     justify-content: center;
     background-color: white;
+    width: 20%;
+    margin: auto;
 }
 
