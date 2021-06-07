@@ -54,7 +54,9 @@ html{
 section{
     padding: 3% 0;;
 }
-
+p, h3{
+    font-size: 1.8rem;
+}
 /*header styles here*/
 
 header{
@@ -79,5 +81,54 @@ nav a{
     border: 2px solid grey;
     padding: 1% 2%;
 }
-
+button{
+    background-color: white;
+    padding: 1% 2%;
+    font-size: 2.5rem;
+}
 /*top section styles*/
+
+.top{
+    display: flex;
+}
+.main-photo{
+    padding: 0 4%; 
+}
+
+.main-photo img{
+    max-height: 50vh;
+}
+
+h2{
+    font-size: 5rem;
+}
+
+.main-photo, .about{
+    margin: 0 2%;
+    width: 50%;
+    padding: 0;
+}
+
+.about{
+    padding: 10% 5% 10% 0;
+}
+
+button.projects{
+    margin: 4% 0;
+}
+
+/*middle gallery section styles here*/
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery-item{
+   width: 20%;
+   margin: 5% 2.5%;
+}
+
+.gallery-item{
+    text-align: center;
+}
