@@ -192,19 +192,29 @@ button.contact{
 
     }
 
-
-
     .gallery{
         justify-content: center;
     }
-    /*button.projects{
-        margin: 2% 30%;
-        padding: 
-    }*/
+
+    footer a{
+        margin: 6% auto;
+    }
+   button{
+       padding: 2% 6%;
+   }
+}
 
 @media(max-width: 500px){
-    .top{
-        display:flex;
-        flex-direction: column;
+
+    h1{
+        font-size: 4rem;
+        margin: 2% auto;
     }
-}*/
+
+    nav a{
+        font-size: 2rem;
+    }
+    footer h3{
+        padding: 2% 6%;
+    }
+}
