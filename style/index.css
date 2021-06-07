@@ -57,11 +57,12 @@ section{
 p, h3{
     font-size: 1.8rem;
 }
-/*header styles here*/
-
-header{
+header, footer{
     background-color: lavender;
 }
+/*header styles here*/
+
+
 
 h1{
     font-size: 7rem;
@@ -132,3 +133,24 @@ button.projects{
 .gallery-item{
     text-align: center;
 }
+
+/*footer styles here*/
+footer h3{
+    font-size: 3rem;
+}
+div.contact{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 0;
+}
+
+footer h3{
+    width: 40%;
+    text-align: center;
+    padding: 2.5% 0;
+}
+button.contact{
+    width: 20% ;
+}
+
