@@ -154,3 +154,52 @@ button.contact{
     width: 20% ;
 }
 
+/*Responsive Styles*/
+@media(max-width: 800px){
+    /*if the screen size is 800px or smaller apply these styles*/
+ header{
+        display:flex;
+        flex-direction: column;
+        align-content: center;
+        padding:auto;
+        margin:auto;
+    }
+
+    .name h1, nav{
+       text-align: center;
+    }
+    
+    .top{
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        padding:0;
+    }
+
+    .about{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        margin: 0;
+        padding:5% 0;
+        text-align: center;
+    }
+
+
+
+    .gallery{
+        
+    }
+    /*button.projects{
+        margin: 2% 30%;
+        padding: 
+    }*/
+
+@media(max-width: 500px){
+    .top{
+        display:flex;
+        flex-direction: column;
+    }
+}*/
