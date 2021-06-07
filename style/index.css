@@ -187,10 +187,15 @@ button.contact{
         text-align: center;
     }
 
+    .gallery-item{
+        width: 40%;
+
+    }
+
 
 
     .gallery{
-        
+        justify-content: center;
     }
     /*button.projects{
         margin: 2% 30%;
